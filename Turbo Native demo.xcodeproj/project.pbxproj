@@ -10,7 +10,6 @@
 		C32F5F142B9A0EB200FA41A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F5F132B9A0EB200FA41A3 /* AppDelegate.swift */; };
 		C32F5F162B9A0EB200FA41A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F5F152B9A0EB200FA41A3 /* SceneDelegate.swift */; };
 		C32F5F182B9A0EB200FA41A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F5F172B9A0EB200FA41A3 /* ViewController.swift */; };
-		C32F5F1B2B9A0EB200FA41A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32F5F192B9A0EB200FA41A3 /* Main.storyboard */; };
 		C32F5F1D2B9A0EBB00FA41A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32F5F1C2B9A0EBB00FA41A3 /* Assets.xcassets */; };
 		C32F5F202B9A0EBB00FA41A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32F5F1E2B9A0EBB00FA41A3 /* LaunchScreen.storyboard */; };
 		C32F5F2B2B9A0EBC00FA41A3 /* Turbo_Native_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F5F2A2B9A0EBC00FA41A3 /* Turbo_Native_demoTests.swift */; };
@@ -40,7 +39,6 @@
 		C32F5F132B9A0EB200FA41A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C32F5F152B9A0EB200FA41A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C32F5F172B9A0EB200FA41A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C32F5F1A2B9A0EB200FA41A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C32F5F1C2B9A0EBB00FA41A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32F5F1F2B9A0EBB00FA41A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32F5F212B9A0EBB00FA41A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				C32F5F132B9A0EB200FA41A3 /* AppDelegate.swift */,
 				C32F5F152B9A0EB200FA41A3 /* SceneDelegate.swift */,
 				C32F5F172B9A0EB200FA41A3 /* ViewController.swift */,
-				C32F5F192B9A0EB200FA41A3 /* Main.storyboard */,
 				C32F5F1C2B9A0EBB00FA41A3 /* Assets.xcassets */,
 				C32F5F1E2B9A0EBB00FA41A3 /* LaunchScreen.storyboard */,
 				C32F5F212B9A0EBB00FA41A3 /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				C32F5F202B9A0EBB00FA41A3 /* LaunchScreen.storyboard in Resources */,
 				C32F5F1D2B9A0EBB00FA41A3 /* Assets.xcassets in Resources */,
-				C32F5F1B2B9A0EB200FA41A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C32F5F192B9A0EB200FA41A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C32F5F1A2B9A0EB200FA41A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C32F5F1E2B9A0EBB00FA41A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +435,6 @@
 				INFOPLIST_FILE = "Turbo Native demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +462,6 @@
 				INFOPLIST_FILE = "Turbo Native demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
