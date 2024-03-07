@@ -7,6 +7,7 @@
 
 import UIKit
 import Turbo
+import WebKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -14,7 +15,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     private let navigationController = UINavigationController()
     private lazy var session: Session = {
-        let session = Session()
+        let configuration = WKWebViewConfiguration()
+        configuration.applicationNameForUserAgent = "Turbo Native iOS"
+        let session = Session(webViewConfiguration: configuration)
         session.delegate = self
         return session
     }()
